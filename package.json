@@ -1,0 +1,22 @@
+{
+  "name": "travistest",
+  "version": "1.0.0",
+  "description": "testing with travis",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint function.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophielevens/travistest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sophielevens/travistest/issues"
+  },
+  "homepage": "https://github.com/sophielevens/travistest#readme",
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  }
+}
